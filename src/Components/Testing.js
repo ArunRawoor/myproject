@@ -2,7 +2,15 @@ import React from 'react'
 
 function Testing() {
   return (
-    <div>This is Just For Testing</div>
+    <div style={{ padding: "20px", textAlign: "center" }}>
+      <h2>Testing Component</h2>
+
+      <p>This is just for testing React components.</p>
+
+      <button onClick={() => alert("Button Clicked!")}>
+        Click Me
+      </button>
+    </div>
   )
 }
 
