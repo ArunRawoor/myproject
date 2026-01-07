@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaPizza - Payment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="payment-page">
+  <header class="header">
+    <div class="nav-container">
+      <a href="checkout.html" class="back-btn">← Checkout</a>
+      <h1 class="logo">Payment</h1>
+    </div>
+  </header>
+
+  <main class="payment-main">
+    <div class="payment-container">
+      <h2>Select Payment Method</h2>
+      
+      <div class="payment-options">
+        <label class="payment-option active" data-method="cod">
+          <input type="radio" name="payment" value="cod" checked>
+          <div class="payment-icon">💰</div>
+          <div>
+            <div class="method-title">Cash on Delivery</div>
+            <div class="method-desc">Pay when you receive</div>
+          </div>
+        </label>
+
+        <label class="payment-option" data-method="upi">
+          <input type="radio" name="payment" value="upi">
+          <div class="payment-icon">📱</div>
+          <div>
+            <div class="method-title">UPI</div>
+            <div class="method-desc">Google Pay / PhonePe</div>
+          </div>
+        </label>
+
+        <label class="payment-option" data-method="card">
+          <input type="radio" name="payment" value="card">
+          <div class="payment-icon">💳</div>
+          <div>
+            <div class="method-title">Card</div>
+            <div class="method-desc">Credit / Debit Card</div>
+          </div>
+        </label>
+      </div>
+
+      <div class="order-summary">
+        <h3>Final Summary</h3>
+        <div class="summary-row">
+          <span>Items:</span>
+          <span id="final-items">0</span>
+        </div>
+        <div class="summary-row total-row">
+          <span>Total Amount:</span>
+          <span id="final-total">₹0</span>
+        </div>
+      </div>
+
+      <button id="place-order-btn" class="btn-primary full-width">Place Order</button>
+    </div>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="payment.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaPizza - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+  <div class="login-container">
+    <div class="login-branding">
+      <h1>🍕 NovaPizza</h1>
+      <p>Welcome to the hottest pizzas in town!</p>
+    </div>
+    
+    <div class="auth-forms">
+      <!-- LOGIN FORM -->
+      <div id="login-section" class="auth-section active">
+        <h2>Welcome Back</h2>
+        <form id="login-form">
+          <div class="form-field">
+            <label>Phone Number</label>
+            <input type="tel" id="login-phone" required placeholder="+91 9876543210">
+          </div>
+          <div class="form-field">
+            <label>Password</label>
+            <input type="password" id="login-password" required placeholder="Enter password">
+          </div>
+          <button type="submit" class="btn-primary full-width">Login</button>
+        </form>
+        <p class="auth-toggle">New user? <a href="#" id="show-register">Register here</a></p>
+      </div>
+
+      <!-- REGISTER FORM -->
+      <div id="register-section" class="auth-section">
+        <h2>Create Account</h2>
+        <form id="register-form">
+          <div class="form-field">
+            <label>Full Name</label>
+            <input type="text" id="reg-name" required placeholder="Your name">
+          </div>
+          <div class="form-field">
+            <label>Phone Number</label>
+            <input type="tel" id="reg-phone" required placeholder="+91 9876543210">
+          </div>
+          <div class="form-field">
+            <label>Password</label>
+            <input type="password" id="reg-password" required placeholder="Create password">
+          </div>
+          <button type="submit" class="btn-primary full-width">Create Account</button>
+        </form>
+        <p class="auth-toggle">Already have account? <a href="#" id="show-login">Login here</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

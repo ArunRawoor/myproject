@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaPizza - Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="cart-page">
+  <header class="header">
+    <div class="nav-container">
+      <a href="menu.html" class="back-btn">← Menu</a>
+      <h1 class="logo">Your Cart</h1>
+      <a href="menu.html" class="continue-btn">Continue Shopping</a>
+    </div>
+  </header>
+
+  <main class="cart-main">
+    <h2 style="margin-bottom: 15px;">Items in your cart</h2>
+
+    <div id="cart-items-container">
+      <p id="empty-cart" class="empty-message">Your cart is empty. Add some pizzas from the menu.</p>
+    </div>
+
+    <div class="cart-summary">
+      <div class="summary-row">
+        <span>Total items:</span>
+        <span id="cart-items-count">0</span>
+      </div>
+      <div class="summary-row">
+        <span>Subtotal:</span>
+        <span id="cart-subtotal">₹0</span>
+      </div>
+      <div class="summary-row">
+        <span>Delivery:</span>
+        <span id="cart-delivery">₹0</span>
+      </div>
+      <div class="summary-row total-row">
+        <span>Grand Total:</span>
+        <span id="cart-total">₹0</span>
+      </div>
+      <button id="checkout-btn" class="btn-primary full-width" disabled>
+        Proceed to Address
+      </button>
+    </div>
+  </main>
+
+  <script src="cart.js"></script>
+</body>
+</html>

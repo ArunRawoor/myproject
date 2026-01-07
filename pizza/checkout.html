@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaPizza - Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="checkout-page">
+  <header class="header">
+    <div class="nav-container">
+      <a href="cart.html" class="back-btn">← Cart</a>
+      <h1 class="logo">Checkout</h1>
+    </div>
+  </header>
+
+  <main class="checkout-main">
+    <form id="address-form" class="address-form">
+      <h2>Delivery Details</h2>
+      
+      <div class="form-row">
+        <div class="form-field">
+          <label>Full Name</label>
+          <input type="text" id="fullName" required>
+        </div>
+        <div class="form-field">
+          <label>Phone</label>
+          <input type="tel" id="phone" required>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label>Address</label>
+        <textarea id="addressLine" rows="3" required placeholder="House no., street, area..."></textarea>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label>City</label>
+          <input type="text" id="city" value="Bengaluru" required>
+        </div>
+        <div class="form-field">
+          <label>Pincode</label>
+          <input type="text" id="pincode" required>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label>Instructions (optional)</label>
+        <input type="text" id="instructions" placeholder="Call before arrival, etc.">
+      </div>
+
+      <div class="order-summary">
+        <h3>Order Summary</h3>
+        <div class="summary-row">
+          <span>Items:</span>
+          <span id="summary-items">0</span>
+        </div>
+        <div class="summary-row total-row">
+          <span>Grand Total:</span>
+          <span id="summary-total">₹0</span>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-primary full-width">Proceed to Payment</button>
+    </form>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="checkout.js"></script>
+</body>
+</html>

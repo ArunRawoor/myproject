@@ -1,0 +1,28 @@
+// 25 pizzas with FIXED working Unsplash images
+window.pizzas = [
+  {id:1,name:"Margherita",price:199,veg:true,rating:4.2,desc:"Classic cheese & tomato.",img:"https://images.unsplash.com/photo-1548365328-9daaf8b5412b?w=400&h=250&fit=crop"},
+  {id:2,name:"Farmhouse",price:279,veg:true,rating:4.5,desc:"Veggie loaded delight.",img:"https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400&h=250&fit=crop"},
+  {id:3,name:"Paneer Tikka",price:299,veg:true,rating:4.6,desc:"Spicy paneer pizza.",img:"https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=400&h=250&fit=crop"},
+  {id:4,name:"Veg Supreme",price:329,veg:true,rating:4.3,desc:"All veggies combo.",img:"https://images.unsplash.com/photo-1548365328-9cee88c9cd07?w=400&h=250&fit=crop"},
+  {id:5,name:"Cheese Burst",price:259,veg:true,rating:4.4,desc:"Double cheese overload.",img:"https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?w=400&h=250&fit=crop"},
+  {id:6,name:"Chicken BBQ",price:329,veg:false,rating:4.5,desc:"Barbecue chicken pizza.",img:"https://images.unsplash.com/photo-1548365328-9bdbb06c9f23?w=400&h=250&fit=crop"},
+  {id:7,name:"Chicken Sausage",price:299,veg:false,rating:4.1,desc:"Sausage & cheese.",img:"https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&h=250&fit=crop"},
+  {id:8,name:"Tandoori Chicken",price:349,veg:false,rating:4.6,desc:"Spicy tandoori.",img:"https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&h=250&fit=crop"},
+  {id:9,name:"Peri Peri",price:369,veg:false,rating:4.7,desc:"Spicy peri peri chicken.",img:"https://images.unsplash.com/photo-1670106781545-2a1a3d5c7ea9?w=400&h=250&fit=crop"},
+  {id:10,name:"Schezwan Veg",price:289,veg:true,rating:4.0,desc:"Spicy schezwan veggies.",img:"https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=400&h=250&fit=crop"},
+  {id:11,name:"Peri Peri Veg",price:359,veg:true,rating:4.3,desc:"Veg peri peri special.",img:"https://images.unsplash.com/photo-1542281286-9e0a16bb7366?w=400&h=250&fit=crop"},
+  {id:12,name:"Cheese Overload",price:349,veg:true,rating:4.8,desc:"4 cheese pizza.",img:"https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=250&fit=crop"},
+  {id:13,name:"Mexican Green",price:309,veg:true,rating:4.1,desc:"Green jalapeno wave.",img:"https://images.unsplash.com/photo-1566843972142-a7fcb70de35e?w=400&h=250&fit=crop"},
+  {id:14,name:"Chicken Supreme",price:339,veg:false,rating:4.2,desc:"Loaded chicken pizza.",img:"https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=250&fit=crop"},
+  {id:15,name:"Paneer Makhani",price:329,veg:true,rating:4.4,desc:"Creamy paneer pizza.",img:"https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&h=250&fit=crop"},
+  {id:16,name:"Sweet Corn",price:229,veg:true,rating:4.0,desc:"Sweet corn & cheese.",img:"https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=400&h=250&fit=crop"},
+  {id:17,name:"Mushroom Magic",price:289,veg:true,rating:4.1,desc:"Fresh mushrooms.",img:"https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=250&fit=crop"},
+  {id:18,name:"Double Chicken",price:379,veg:false,rating:4.6,desc:"Two chicken toppings.",img:"https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&h=250&fit=crop"},
+  {id:19,name:"Veggie Volcano",price:319,veg:true,rating:4.2,desc:"Extra spicy veggies.",img:"https://images.unsplash.com/photo-1566843972142-a7fcb70de35e?w=400&h=250&fit=crop"},
+  {id:20,name:"Chicken Classic",price:359,veg:false,rating:4.5,desc:"Classic chicken pizza.",img:"https://images.unsplash.com/photo-1542281286-9e0a16bb7366?w=400&h=250&fit=crop"},
+  {id:21,name:"Veggie Delight",price:249,veg:true,rating:4.1,desc:"Fresh veggie mix.",img:"https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400&h=250&fit=crop"},
+  {id:22,name:"Pepperoni Blast",price:389,veg:false,rating:4.7,desc:"Classic pepperoni.",img:"https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&h=250&fit=crop"},
+  {id:23,name:"Garlic Bread Pizza",price:239,veg:true,rating:4.0,desc:"Garlic cheesy pizza.",img:"https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=250&fit=crop"},
+  {id:24,name:"BBQ Paneer",price:339,veg:true,rating:4.3,desc:"BBQ flavored paneer.",img:"https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&h=250&fit=crop"},
+  {id:25,name:"Tandoori Special",price:369,veg:false,rating:4.5,desc:"Authentic tandoori.",img:"https://images.unsplash.com/photo-1670106781545-2a1a3d5c7ea9?w=400&h=250&fit=crop"}
+];
