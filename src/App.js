@@ -54,9 +54,9 @@ function App() {
      <Greet name="Stanly"/> */}
       {/* <ParentComponent/> */}
 
-      {/* <FunctionComponentEx/> */}
+      <FunctionComponentEx/>
 
-      <Timer/>
+      {/* <Timer/> */}
       {/* <UserData userId={2}/> */}
       {/* <Dileep />
       <AxiosExample /> */}
