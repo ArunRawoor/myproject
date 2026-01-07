@@ -56,10 +56,10 @@ function App() {
 
       {/* <FunctionComponentEx/> */}
 
-      {/* <Timer/> */}
+      <Timer/>
       {/* <UserData userId={2}/> */}
-      <Dileep />
-      <AxiosExample />
+      {/* <Dileep />
+      <AxiosExample /> */}
     </>
   );
 }
