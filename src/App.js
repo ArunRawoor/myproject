@@ -16,6 +16,8 @@ import Timer from "./Components/Timer";
 import UserData from "./Components/UserData";
 import AxiosExample from "./Components/AxiosExample";
 import Dileep from "./Components/Dileep";
+import AdvancedFormDataValidation from "./Components/AdvancedFormDataValidation";
+import BasicFormDataExample from "./Components/BasicFormDataExample";
 
 function App() {
   return (
@@ -54,12 +56,14 @@ function App() {
      <Greet name="Stanly"/> */}
       {/* <ParentComponent/> */}
 
-      <FunctionComponentEx/>
+      {/* <FunctionComponentEx/> */}
 
       {/* <Timer/> */}
       {/* <UserData userId={2}/> */}
       {/* <Dileep />
       <AxiosExample /> */}
+      {/* <AdvancedFormDataValidation/> */}
+      <BasicFormDataExample/>
     </>
   );
 }
