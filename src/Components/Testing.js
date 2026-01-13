@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React from 'react'
 
 function Testing() {
@@ -15,3 +16,14 @@ function Testing() {
 }
 
 export default Testing
+=======
+import react from 'react'
+
+function Testing() {
+    return(
+        <div>This is  just for Testing</div>
+    )
+}
+
+export default Testing
+>>>>>>> Stashed changes
